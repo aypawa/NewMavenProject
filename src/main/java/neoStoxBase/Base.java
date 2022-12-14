@@ -18,6 +18,7 @@ public class Base {
 		Reporter.log("launching Browser",true);
 		Utility.wait(driver, 3000);
 	}
+	
 	public static void ClosingBrowser(WebDriver driver) throws InterruptedException
 	{
 		Thread.sleep(500);
