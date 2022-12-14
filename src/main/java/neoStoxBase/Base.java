@@ -12,7 +12,7 @@ public class Base {
 	public void launchNeoStox()
 	{
 		//System.setProperty("webdriver.chrome.driver","C:\\Users\\ajink\\OneDrive\\Desktop\\Automation velocity\\Driver\\chromedriver.exe");
-		 driver=new ChromeDriver();
+		// driver=new ChromeDriver();
 		driver.get("https://neostox.com/");
 		driver.manage().window().maximize();
 		Reporter.log("launching Browser",true);
