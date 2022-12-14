@@ -11,7 +11,7 @@ public class Base {
 	protected WebDriver driver;
 	public void launchNeoStox()
 	{
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\ajink\\OneDrive\\Desktop\\Automation velocity\\Driver\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","C:\\Users\\ajink\\OneDrive\\Desktop\\Automation velocity\\Driver\\chromedriver.exe");
 		 driver=new ChromeDriver();
 		driver.get("https://neostox.com/");
 		driver.manage().window().maximize();
